@@ -258,7 +258,7 @@
   font-weight: bold;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--shadow-color);
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 .gallery__list {
@@ -331,6 +331,16 @@
   .header__title {
     margin-inline-start: 0;
   }
+
+  .header .header__rec {
+    top: 10px;
+    right: 38px;
+  }
+
+  .header .header__rec::before {
+    top: 8px;
+    right: -20px;
+}
 
   .content {
     margin-block-end: 40px;
