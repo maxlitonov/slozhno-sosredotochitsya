@@ -5,6 +5,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   color: var(--text-color, #353430);
   font-family: var(--main-font, monospace);
+  background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: 50% 50%;
   background-size: cover;
