@@ -23,8 +23,20 @@
 } 
 
 @media(prefers-color-scheme: light) {
+  :root {
+    --main-font: 'IBM Plex mono', monospace;
+    --accent-color: #FFC2E6;
+    --text-color: #353430;
+    --decor-color: #FF8DCB;
+    --bg-color: #FFF1F7;
+    --shadow-color: #FF0070;
+    --bg-image: url(../images/cover-image-light.png);
+  }
   @media (width <= 768px) {
     .page.theme_light {
+      --shadow-color: #FF8DCB;
+    }
+    :root {
       --shadow-color: #FF8DCB;
     }
   }
