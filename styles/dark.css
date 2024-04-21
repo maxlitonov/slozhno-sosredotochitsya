@@ -42,7 +42,7 @@
   right: -20px;
   display: block;
   border-radius: 50%;
-  box-shadow: 0 0 13px 6px var(--rec-color);
+  box-shadow: 0 0 13px 2px var(--rec-color);
   background-color: var(--rec-color);
   block-size: 9px;
   inline-size: 9px;
