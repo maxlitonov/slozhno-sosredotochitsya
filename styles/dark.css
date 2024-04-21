@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', monospace;
   --text-color: #F1B2CE;
   --header-title-color: #DB00FF;
   --heading-color: #FF0070;
@@ -19,4 +19,50 @@
   --theme-menu-item-color: #FF0070;
   --frame-color: #FF0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --hover-border-color: 255, 0, 112, 0.4;
+  --hover-under-link-color: #F1B2CE;
+  --button-focus-color: #FF0070;
+  --link-focus-color: #F1B2CE;
 }
+
+.header__rec {
+  text-transform: uppercase;
+  position: absolute;
+  color: var(--rec-color);
+  line-height: 25px;
+  font-size: 18px;
+  right: 48px;
+  top: 21px;
+}
+
+.header__rec::before {
+  content: "";
+  display: block;
+  block-size: 9px;
+  inline-size: 9px;
+  border-radius: 50%;
+  background-color: var(--rec-color);
+  position: absolute;
+  right: -20px;
+  top: 7px;
+  box-shadow: 0 0 13px 6px var(--rec-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: 'IBM Plex mono', monospace;
+    --text-color: #F1B2CE;
+    --header-title-color: #DB00FF;
+    --heading-color: #FF0070;
+    --decor-color: #FF0070;
+    --shadow-color: #FF0070;
+    --item-title-color: #000028;
+    --theme-menu-item-color: #FF0070;
+    --frame-color: #FF0070;
+    --bg-image: url(../images/cover-image-dark.png);
+    --hover-border-color: 255, 0, 112, 0.4;
+    --hover-under-link-color: #F1B2CE;
+    --button-focus-color: #FF0070;
+    --link-focus-color: #F1B2CE;
+    }
+  }

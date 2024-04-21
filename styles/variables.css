@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', monospace;
   --text-color: #353430;
   --header-title-color: #FFC2E6;
   --heading-color: #353430;
@@ -13,4 +13,9 @@
   --theme-menu-item-color: #353430;
   --frame-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
+  --rec-color: #FF0070;
+  --hover-border-color: 50, 49, 45, 0.4;
+  --hover-under-link-color: #353430;
+  --button-focus-color: #353430;
+  --link-focus-color: #353430;
 }
