@@ -26,26 +26,26 @@
 }
 
 .header__rec {
-  text-transform: uppercase;
   position: absolute;
-  color: var(--rec-color);
-  line-height: 25px;
-  font-size: 18px;
-  right: 48px;
   top: 21px;
+  right: 48px;
+  color: var(--rec-color);
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
 }
 
 .header__rec::before {
   content: "";
+  position: absolute;
+  top: 7px;
+  right: -20px;
   display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 6px var(--rec-color);
+  background-color: var(--rec-color);
   block-size: 9px;
   inline-size: 9px;
-  border-radius: 50%;
-  background-color: var(--rec-color);
-  position: absolute;
-  right: -20px;
-  top: 7px;
-  box-shadow: 0 0 13px 6px var(--rec-color);
 }
 
 @media (prefers-color-scheme: dark) {

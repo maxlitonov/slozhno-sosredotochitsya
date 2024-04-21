@@ -22,13 +22,13 @@
 } 
 
 @media(prefers-color-scheme: light) {
-  .page.theme_auto .header__rec {
-    display: none;
-  }
   @media (width <= 768px) {
     .page.theme_light {
       --shadow-color: #FF8DCB;
     }
+  }
+  .page.theme_auto .header__rec {
+    display: none;
   }
 }
 
